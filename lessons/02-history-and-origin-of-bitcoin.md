@@ -1,137 +1,177 @@
-Darasi na 2: Gabatarwa ga Bitcoin
+Darasi na 2: Tarihi da Asalin Bitcoin
 
-Introduction to Bitcoin
+History and Origin of Bitcoin
 
-1.1 Menene Bitcoin?
+2.1 Gabatarwa
 
-Bitcoin kuɗin dijital ne kuma tsarin musayar kuɗi na peer-to-peer wanda ke ba mutane damar aikawa da karɓar kuɗi ta intanet ba tare da buƙatar banki ko wani tsaka-tsakin mai kula da kowace mu'amala ba.
+Bitcoin bai bayyana daga babu ba. Ya samo asali ne daga dogon bincike da ƙoƙarin samar da kuɗin dijital wanda mutane za su iya musayarwa kai tsaye ba tare da dogaro da wata cibiya ta tsakiya ba.
 
-An ƙaddamar da Bitcoin a shekarar 2009 ta wani mutum ko ƙungiya mai amfani da sunan Satoshi Nakamoto. A shekarar 2008, an wallafa takardar fasaha mai suna Bitcoin: A Peer-to-Peer Electronic Cash System, wadda ta bayyana yadda tsarin zai yi aiki.
+Domin fahimtar Bitcoin sosai, yana da muhimmanci mu san tarihin cryptography, digital money da binciken da ya gabaci ƙirƙirar Bitcoin.
 
-Bitcoin yana amfani da fasahar Blockchain wajen adana bayanan mu'amaloli a cikin tsarin da jama'a za su iya tantancewa.
+2.2 Ƙoƙarin Samar da Kuɗin Dijital Kafin Bitcoin
 
-1.2 Me ya sa aka ƙirƙiri Bitcoin?
+Kafin shekarar 2008, masu bincike sun yi ƙoƙarin samar da tsarin kuɗin dijital. Amma akwai babbar matsala: Double Spending Problem.
 
-Ɗaya daga cikin manyan matsalolin da Bitcoin ya yi ƙoƙarin magancewa ita ce double-spending problem — wato yiwuwar amfani da kuɗin dijital guda ɗaya fiye da sau ɗaya.
+Wannan yana nufin yiwuwar amfani da kuɗin dijital guda ɗaya fiye da sau ɗaya.
 
-A tsarin kuɗin gargajiya, bankuna da sauran cibiyoyi suna taimakawa wajen tabbatar da mu'amaloli. Bitcoin kuwa yana amfani da hanyar sadarwa ta kwamfutoci masu zaman kansu (nodes), dokokin tsarin (consensus rules), da tsarin tabbatar da mu'amaloli domin gudanar da wannan aiki.
+Wasu daga cikin ayyukan da suka gabaci Bitcoin sun haɗa da:
 
-1.3 Muhimman siffofin Bitcoin
+1. DigiCash: David Chaum ya ƙirƙira wannan tsarin kuɗin dijital a shekarun 1980, tare da mayar da hankali kan privacy.
+2. Hashcash: Adam Back ya gabatar da wannan tsarin Proof of Work a shekarar 1997.
+3. b-money: Wei Dai ya gabatar da shawarar tsarin kuɗin dijital mai rarraba iko a shekarar 1998.
+4. Bit Gold: Nick Szabo ya yi bincike kan wannan ra'ayin kuɗin dijital a ƙarshen shekarun 1990.
 
-1. Decentralization: Babu wata hukuma guda da ke da ikon mallakar ko sarrafa dukkan hanyar sadarwar Bitcoin.
-2. Transparency: Ana iya duba mu'amalolin da aka rubuta a blockchain ta amfani da block explorers.
-3. Security: Bitcoin yana amfani da cryptography da tsarin consensus domin kare hanyar sadarwarsa.
-4. Limited Supply: An tsara dokokin Bitcoin domin iyakance adadin da za a samar zuwa kusan miliyan 21 BTC.
-5. Open Source: Kowa na iya duba lambar Bitcoin, ya yi nazari a kanta, ko ya bayar da gudummawa bisa dokokin aikin.
-6. Peer-to-Peer: Mutane za su iya aika Bitcoin kai tsaye tsakanin wallet ɗinsu ba tare da banki ya zama dole ba.
+Waɗannan ayyuka sun taimaka wajen samar da wasu daga cikin ra'ayoyin fasaha da suka gabaci Bitcoin. Ba su zama Bitcoin kai tsaye ba.
 
-1.4 Yadda Bitcoin yake aiki
+2.3 Satoshi Nakamoto
 
-Ga taƙaitaccen yadda mu'amalar Bitcoin take gudana:
+A shekarar 2008, wani mutum ko ƙungiya mai amfani da sunan Satoshi Nakamoto ya gabatar da Bitcoin.
 
-1. Mai amfani yana ƙirƙirar transaction daga wallet ɗinsa.
-2. Wallet ɗin yana amfani da private key domin sanya digital signature da ke tabbatar da izinin mai amfani.
-3. Ana watsa transaction ɗin zuwa hanyar sadarwar Bitcoin.
-4. Nodes suna bincika ko transaction ɗin ya cika dokokin Bitcoin.
-5. Miners suna tattara transactions masu inganci su haɗa su cikin candidate block.
-6. Miners suna amfani da Proof of Work wajen neman ingantaccen block.
-7. Nodes suna tantance block ɗin bisa dokokin tsarin. Idan ya karya dokokin, nodes masu bin dokokin za su ƙi shi.
-8. Idan block ɗin ya inganta, yana shiga cikin blockchain.
+Har yanzu ba a tabbatar da ainihin mutumin ko mutanen da ke bayan wannan suna ba.
 
-Muhimmin bayani: Miners ba su da ikon canza dokokin Bitcoin ko tilasta wa nodes karɓar transaction ko block mara inganci. Nodes suna da nasu aikin tantance bin dokokin tsarin.
+A ranar 31 ga Oktoba, 2008, an wallafa takardar fasaha mai suna:
 
-1.5 Menene Bitcoin Wallet?
+Bitcoin: A Peer-to-Peer Electronic Cash System
 
-Bitcoin wallet manhaja ce ko na'ura da ke taimakawa wajen sarrafa bayanan sirri da ake amfani da su wajen samun damar kashe Bitcoin.
+Wannan takarda ta bayyana yadda za a samar da tsarin kuɗin dijital wanda mutane za su iya musayarwa kai tsaye ta hanyar sadarwa ba tare da buƙatar wani tsaka-tsakin mai tabbatar da kowace mu'amala ba.
 
-Wallet ba ya ajiye Bitcoin a cikinsa kamar yadda jaka take ajiye takardun kuɗi. Bitcoin yana cikin bayanan blockchain; wallet yana sarrafa keys da ake amfani da su wajen tabbatar da ikon kashe waɗannan kuɗin.
+"Karanta Bitcoin Whitepaper" (https://bitcoin.org/bitcoin.pdf)
 
-- Private Key: Sirrin bayanin da ke ba mai shi damar sanya hannu kan transaction.
-- Public Key: Ana samar da shi daga private key, kuma yana taimakawa wajen tabbatar da digital signature.
-- Wallet Address: Adireshin da ake amfani da shi wajen karɓar Bitcoin.
-- Seed Phrase: Jerin kalmomi da wasu wallets ke bayarwa domin taimakawa wajen dawo da wallet.
+2.4 Haihuwar Bitcoin a Shekarar 2009
 
-Kada a taɓa bai wa wani private key ko seed phrase. Wanda ya mallake su zai iya samun damar sarrafa kuɗin da ke da alaƙa da su.
+A ranar 3 ga Janairu, 2009, an samar da block na farko a Bitcoin blockchain.
 
-1.6 Bambanci tsakanin Bitcoin da Blockchain
+Ana kiran wannan block da Genesis Block ko Block 0.
 
-Bitcoin| Blockchain
-Tsarin kuɗin dijital ne da hanyar sadarwa.| Fasaha ce ta adana bayanai a jerin blocks.
-Yana amfani da blockchain wajen rubuta transactions.| Ana iya amfani da ita a wasu fannoni daban-daban.
-Yana da nasa dokoki da hanyar sadarwa.| Ba kowace blockchain ce Bitcoin ba.
+A cikin Genesis Block akwai wani saƙo:
 
-1.7 Amfanin Bitcoin
+"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
 
-- Yana ba mutane damar aika kuɗi ta hanyar sadarwar duniya.
-- Yana rage dogaro da tsaka-tsakin cibiyoyi wajen musayar Bitcoin.
-- Yana samar da hanyar sadarwa mai buɗaɗɗen shiga.
-- Yana ba masu amfani damar riƙe ikon sarrafa private keys ɗinsu.
-- Yana samar da dama ga masu bincike da developers su bayar da gudummawa ga open-source technology.
+Wannan saƙo ya samo asali ne daga kanun labarin jaridar The Times ta Birtaniya a ranar 3 ga Janairu, 2009.
 
-1.8 Ƙalubalen Bitcoin
+Saƙon yana nuna yanayin matsalolin tsarin kuɗi a lokacin da aka fara Bitcoin. Amma ba zai zama hujja kai tsaye cewa wannan ne kawai dalilin ƙirƙirar Bitcoin ba.
 
-- Farashinsa yana iya sauyawa sosai (volatility).
-- Asarar private key ko seed phrase na iya jawo asarar damar samun kuɗi.
-- Akwai haɗarin phishing, zamba da fake wallets.
-- Amfani da Bitcoin yana buƙatar fahimtar tsaro da yadda hanyar sadarwar ke aiki.
-- Mu'amaloli da aka tabbatar a blockchain ba a saba iya soke su ba.
+A ranar 9 ga Janairu, 2009, an fitar da Bitcoin software version 0.1, wanda ya ba masu amfani damar gudanar da software ɗin.
 
-1.9 Muhimman Kalmomi (Glossary)
+2.5 Mu'amalar Bitcoin ta Farko
+
+A farkon shekarar 2009, Hal Finney ya kasance ɗaya daga cikin farkon mutanen da suka gwada Bitcoin.
+
+A ranar 12 ga Janairu, 2009, Satoshi Nakamoto ya aika masa Bitcoin 10.
+
+Wannan mu'amala ta kasance ɗaya daga cikin muhimman transactions na farkon tarihin Bitcoin, domin ta nuna yadda za a iya aika Bitcoin daga mutum zuwa wani ta hanyar sadarwar.
+
+Hal Finney ya taka muhimmiyar rawa wajen gwaji da tattauna Bitcoin a farkon lokacinsa.
+
+2.6 Bitcoin Pizza Day — 22 Mayu, 2010
+
+A ranar 22 ga Mayu, 2010, wani mai amfani da Bitcoin mai suna Laszlo Hanyecz ya yi amfani da Bitcoin wajen sayen pizza guda biyu.
+
+Ya biya Bitcoin 10,000 domin a kawo masa pizzas ɗin.
+
+Wannan lamari ya zama sananne a matsayin Bitcoin Pizza Day.
+
+Muhimmancin wannan lamari shi ne ya nuna ɗaya daga cikin farkon misalan amfani da Bitcoin wajen sayen kaya a duniyar zahiri.
+
+Ana tunawa da ranar 22 ga Mayu a kowace shekara a matsayin wani muhimmin lokaci a tarihin Bitcoin.
+
+2.7 Wasu Muhimman Matakai a Tarihin Bitcoin
+
+Shekara| Abin da ya faru
+1997| Adam Back ya gabatar da Hashcash
+1998| Wei Dai ya gabatar da b-money
+2008| An wallafa Bitcoin Whitepaper
+3 Janairu 2009| An samar da Genesis Block
+9 Janairu 2009| An fitar da Bitcoin software 0.1
+12 Janairu 2009| Satoshi ya aika Bitcoin 10 ga Hal Finney
+22 Mayu 2010| An yi mu'amalar Bitcoin ta pizza
+2011| Satoshi ya daina fitowa a tattaunawar jama'a
+2017| Segregated Witness (SegWit) ya fara aiki
+2021| Taproot upgrade ya fara aiki
+2024| An yi halving na huɗu na Bitcoin
+
+2.8 Menene Bitcoin Halving?
+
+Bitcoin Halving wani tsari ne da ke rage ladan da miners ke samu daga samar da sabon block da rabi bayan kowane blocks 210,000.
+
+An tsara wannan tsari a cikin dokokin Bitcoin domin rage saurin samar da sabbin Bitcoin a hankali.
+
+Ga tarihin halving:
+
+Shekara| Ladan Block bayan Halving
+2009| 50 BTC
+2012| 25 BTC
+2016| 12.5 BTC
+2020| 6.25 BTC
+2024| 3.125 BTC
+
+Halving yana ɗaya daga cikin muhimman siffofin tsarin samar da Bitcoin.
+
+2.9 Tasirin Bitcoin ga Duniya
+
+Bitcoin ya taimaka wajen faɗaɗa bincike da tattaunawa kan fasahar kuɗin dijital da tsarin da ba ya dogara da cibiya guda.
+
+Wasu daga cikin tasirinsa sun haɗa da:
+
+1. Decentralization: Ya ƙarfafa fahimtar tsarin rarraba iko a hanyar sadarwa.
+2. Open-Source Development: Ya samar da dama ga developers daga sassa daban-daban na duniya su yi nazari da bayar da gudummawa.
+3. Digital Ownership: Ya ƙarfafa fahimtar yadda mutum zai iya sarrafa kadarar dijital ta amfani da private keys.
+4. Financial Inclusion: Ya samar da wata hanyar shiga tsarin kuɗin dijital ga mutanen da ke da damar amfani da intanet.
+5. Blockchain Research: Ya ƙarfafa bincike kan cryptography, distributed systems da consensus mechanisms.
+
+2.10 Muhimman Kalmomi (Glossary)
 
 English Term| Ma'anarsa a Hausa
-Bitcoin| Kuɗin dijital da tsarin musayar kuɗi na peer-to-peer
-Blockchain| Tsarin adana bayanai a jerin blocks
-Satoshi Nakamoto| Sunan wanda ya gabatar da Bitcoin
-Transaction| Mu'amala ko aika kuɗi
-Wallet| Manhaja ko na'urar sarrafa keys
-Private Key| Mabudin sirri
-Public Key| Mabudin jama'a
-Node| Kwamfuta da ke shiga da tabbatar da dokokin hanyar sadarwa
-Miner| Mai gudanar da aikin mining
-Proof of Work| Hanyar tabbatar da aiki
-Decentralization| Rarraba iko
+Genesis Block| Block na farko a Bitcoin blockchain
+Whitepaper| Takardar bayanin fasaha da manufar wani aiki
+Satoshi Nakamoto| Sunan da aka yi amfani da shi wajen ƙaddamar da Bitcoin
+Cryptography| Kimiyyar kare bayanai ta amfani da dabarun sirri
+Hashcash| Tsarin Proof of Work da ya gabaci Bitcoin
+Digital Currency| Kuɗin dijital
+Halving| Rage ladan samar da block da rabi
+Bitcoin Pizza Day| Ranar tunawa da sayen pizza da Bitcoin
+Peer-to-Peer| Musayar kai tsaye tsakanin masu amfani
 Double Spending| Amfani da kuɗi guda fiye da sau ɗaya
-Seed Phrase| Kalmomin dawo da wallet
+Genesis| Farko ko asali
 
-1.10 Tambayoyin Fahimta
+2.11 Tambayoyin Fahimta
 
-1. Menene Bitcoin?
-2. Wane suna ne aka yi amfani da shi wajen gabatar da Bitcoin?
-3. Wace matsala ce Bitcoin ya yi ƙoƙarin magancewa?
-4. Menene bambanci tsakanin Bitcoin da Blockchain?
-5. Menene aikin nodes?
-6. Menene aikin miners?
-7. Shin wallet yana ajiye Bitcoin a cikinsa? Yi bayani.
-8. Me ya sa bai kamata a bai wa wani seed phrase ba?
+1. A wace shekara aka wallafa Bitcoin Whitepaper?
+2. Wane suna ne aka yi amfani da shi wajen ƙaddamar da Bitcoin?
+3. Menene Genesis Block?
+4. Wane mutum ne ya karɓi Bitcoin 10 daga Satoshi a Janairun 2009?
+5. Menene Bitcoin Pizza Day?
+6. Menene Bitcoin Halving?
+7. Ka ambaci ayyuka biyu da suka gabaci Bitcoin.
+8. Me ya sa tarihin Bitcoin yake da muhimmanci wajen fahimtar fasahar?
 
-1.11 Aikin Gwaji (Practical Activity)
+2.12 Aikin Gwaji (Practical Activity)
 
 1. Buɗe "mempool.space" (https://mempool.space/).
-2. Duba sabon block da aka ƙara a Bitcoin blockchain.
-3. Lura da block height, adadin transactions, da lokacin da aka samar da block ɗin.
-4. Ka rubuta abin da ka lura da shi cikin kalmomin da ka fahimta.
+2. Nemo block number 0.
+3. Duba bayanan Genesis Block.
+4. Bincika tarihin Bitcoin Halving na shekarar 2024.
+5. Rubuta abubuwa uku da ka koya daga tarihin Bitcoin.
 
-Lura: Kada ka shigar da private key ko seed phrase a kowane shafin yanar gizo domin wannan gwaji.
+Lura: Wannan aikin bincike ne kawai. Kada ka shigar da private key ko seed phrase a kowane shafin yanar gizo.
 
-1.12 Abin da ɗalibi zai koya
+2.13 Abin da Ɗalibi Zai Koya
 
 Bayan kammala wannan darasi, ɗalibi ya kamata ya iya:
 
-- Bayyana menene Bitcoin da manufar ƙirƙirarsa.
-- Fahimtar muhimman siffofin Bitcoin.
-- Bayyana yadda transaction ke shiga blockchain.
-- Bambance aikin wallet, nodes da miners.
-- Fahimtar bambanci tsakanin Bitcoin da Blockchain.
-- Sanin muhimmancin kare private key da seed phrase.
+- Bayyana tarihin da ya kai ga ƙirƙirar Bitcoin.
+- Fahimtar gudummawar Satoshi Nakamoto da wasu masu bincike.
+- Bayyana muhimmancin Genesis Block.
+- Fahimtar Bitcoin Pizza Day.
+- Bayyana yadda Bitcoin Halving yake aiki.
+- Fahimtar yadda Bitcoin ya bunƙasa tun daga shekarar 2009.
 
-1.13 Manazarta
+2.14 Manazarta
 
 - "Bitcoin Whitepaper" (https://bitcoin.org/bitcoin.pdf)
-- "Bitcoin.org — Getting Started" (https://bitcoin.org/en/getting-started)
+- "Bitcoin Wiki — History" (https://en.bitcoin.it/wiki/History)
 - "Bitcoin Developer Documentation" (https://developer.bitcoin.org/)
-- "Mempool Space — Bitcoin Explorer" (https://mempool.space/)
-
----
+- "Bitcoin.org" (https://bitcoin.org/)
 
 Hausa Bitcoin Initiative (HBI)
 Making Bitcoin Knowledge Accessible in Hausa.
