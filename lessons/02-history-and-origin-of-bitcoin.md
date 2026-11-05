@@ -1,4 +1,4 @@
-Darasi na 1: Gabatarwa ga Bitcoin
+Darasi na 2: Gabatarwa ga Bitcoin
 
 Introduction to Bitcoin
 
